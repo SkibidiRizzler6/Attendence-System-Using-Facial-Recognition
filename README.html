@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BWAHAHAHAHAHAHAHA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .modules, .steps {
+            padding-left: 20px;
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Soham's 12th Grade Project - Attendence logging System using Face Recognition</h1>
+		<p>yes i know im a chad</p>
+
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>This project is a face recognition-based attendance system. It allows you to take attendance by detecting faces through a webcam. It uses a MySQL database to store attendance records, and it leverages the power of OpenCV, MediaPipe, and facial recognition algorithms.</p>
+        </div>
+
+        <div class="section">
+            <h2>Modules Used</h2>
+            <ul class="modules">
+                <li><strong>OpenCV:</strong> Used for computer vision tasks, including face detection and image processing.</li>
+                <li><strong>MediaPipe:</strong> Provides an easy-to-use face detection model that helps in detecting faces from the camera feed.</li>
+                <li><strong>MySQL Connector:</strong> Connects the Python code to the MySQL database to save attendance data.</li>
+                <li><strong>pickle:</strong> Used for creating and loading the trained face recognition model.</li>
+                <li><strong>sklearn:</strong> A library for preprocessing the labels (student names) for the face recognition model.MACHINE LEARNING GOESSSS WOOOOOOOOOOOOOOO</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Setup Instructions</h2>
+            <p>Follow these steps to set up and run the project:</p>
+            <ol class="steps">
+                <li>Install all necessary modules by running the following command:</li>
+                <code>pip install opencv-python mediapipe mysql-connector-python scikit-learn</code>
+
+                <li>Make sure you have a MySQL server running locally. If not, you can download and install MySQL from the official website.</li>
+
+                <li>Import the database schema from the <code>attensql.sql</code> file. This will set up the required tables in your database.</li>
+                
+                <li>Modify the MySQL connection parameters in the code (username, password, and database name) to match your setup.</li>
+                
+                <li>Run the Python script that starts the face recognition system. It will prompt you to enter the student's name for training and allow you to take attendance.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>What This Project Does</h2>
+            <p>This project performs the following tasks:</p>
+            <ul>
+                <li><strong>Face Detection:</strong> Detects faces using MediaPipe's face detection module.</li>
+                <li><strong>Face Recognition:</strong> Recognizes trained faces with OpenCV's LBPH (Local Binary Patterns Histograms) face recognizer.</li>
+                <li><strong>Attendance Logging:</strong> Logs the name of the recognized person into a MySQL database.</li>
+                <li><strong>Admin Authentication:</strong> Allows an admin to authenticate with a username and password before using the system.</li>
+                <li><strong>Real-Time Monitoring:</strong> Displays the webcam feed with detected faces and logs attendance when a face is recognized.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Running the Project</h2>
+            <p>Once everything is set up, you can run the project by executing the Python script. The system will guide you through the process of registering students and will allow you to take attendance by detecting their faces.</p>
+            <p>Run main.py,the username is <strong>admin</strong> and password is <strong>pass123</strong>.Once you do that the project is pretty self explanatory.</p>
+			<p>If you have a potato pc,run test.py. It is the last iteration of this code.Gui wise a lil bad but have same functionality</p>
+			<p>To log attendance, the system will display the name of the recognized individual and store the data in the MySQL database for future reference.</p>
+			<p>If you dont like MySQL(no one does),run view.py and hit <strong>http://localhost:8000/attendance</strong> AFTER RUNNING VIEW.PY</p>
+			<p>And Vihaan,Shounak,Sameer and Rizzwik,I made this.(I refers to SkibidiRizzler6 who you may know as Soham Mukherjee)</p>
+			<p>If anyone tries to plagiarize this code,I'll know cuz easter eggs.Plus most of you don't know machine learning so ma'am will understand automatically lol.</p>
+
+		</div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>For any questions or issues, feel free to reach out to moi at <strong>sohammukherjee285@gmail.com</strong> or <strong>+91 9205246028</strong>.Always happy to help newbs lol</p>
+        </div>
+	<p><strong>Soham Mukherjee</p>
+	<p>12-H,probably</p>
+	<p>Skibidi Rizzler</strong></p>
+    </div>
+
+</body>
+</html>
